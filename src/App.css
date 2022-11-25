@@ -1,0 +1,40 @@
+.createModal {
+    background-color: #ccc;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.delModal{
+    background-color: #ccc;
+    padding: 1rem;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.header{
+    border-bottom: 2px solid crimson;
+    margin-bottom: 1rem;
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 20px 20px 0 0;
+}
+
+@media (max-width: 600px)  {
+    .createModal {
+        width: 90%;
+    }
+
+    .delModal{
+        width: 90%;
+    }
+}
